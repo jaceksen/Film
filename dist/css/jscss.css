@@ -1,0 +1,30 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2017-05-19, 14:47:52
+    Author     : Jacek Seń <jaceksen@gmail.com>
+*/
+
+.button {
+    display: inline-block;
+    width: 200px;
+    height: 33px;
+
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 29px;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    border: 2px solid #fff;
+    -webkit-transition: background 0.2s ease-out, color 0.2s ease-out;
+    transition: background 0.2s ease-out, color 0.2s ease-out;
+}
+
+.button:hover {
+    background: #fff;
+    color: #232323;
+}
